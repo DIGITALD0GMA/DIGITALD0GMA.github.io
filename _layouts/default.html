@@ -16,7 +16,6 @@
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
         
-        !--This gives a linked list to all posts-->
         <ul>
           {% for post in site.posts %}
           <li>
@@ -24,7 +23,6 @@
           </li>
           {% endfor %}
         </ul>
-        !--End post list-->
 
         <section id="downloads">
           {% if site.show_downloads %}
