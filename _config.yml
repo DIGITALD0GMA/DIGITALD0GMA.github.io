@@ -2,4 +2,4 @@
 theme:  jekyll-theme-hacker
 url: "https://www.brandonalafleur.com"
 # exclude:
-#   - README
+#   - README.md
