@@ -1,0 +1,40 @@
+---
+layout: default
+title: Member Recipies
+---
+
+<h1>Member Recipies</h1>
+
+<p>To have your recipe included in this list, please print a PDF version from BeerSmith and send that and the 
+	BeerSmith file to <a href="mailto:contact@jessclark.com">Jesse</a></p>
+
+<table width="100%" class="recipies">
+	<thead>
+		<tr>
+			<th>Recipe Name</th>
+			<th>Style</th>
+			<th>Brewer</th>
+			<th>Download</th>
+		</tr>
+	</thead>
+	
+	<tbody>
+		<tr>
+			<td><a href="data/Mark-Berliner-Weisse.html">Berliner Weisse</a></td>
+			<td>Berliner Weisse</td>
+			<td>Mark Boelman</td>
+			<td><a href="data/Mark-Berliner-Weisse.oxps">BeerSmith</a></td>
+		</tr>
+	</tbody>
+</table>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.25.5/js/jquery.tablesorter.min.js"></script>
+<script>
+$(document).ready(function() 
+    { 
+        $(".recipies").tablesorter(); 
+    } 
+); 	
+</script>
+	

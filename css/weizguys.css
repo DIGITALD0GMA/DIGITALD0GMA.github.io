@@ -1,0 +1,89 @@
+/* CSS Document */
+
+body {background-color:#000; margin:0; padding:0;}
+
+.page {
+    background-color:#fff;
+}
+
+.page a {
+    color:#8e6c00;
+}
+
+.header .medium-3 {text-align: right;}
+
+.menu {
+    margin:10px 0;
+}
+
+.menu a {
+    color:#000;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color:#E5BA33
+} 
+
+h1 {
+    background-color:#E5BA33;
+    font-size:1.5em;
+    padding:5px 15px;
+    margin: 10px 0;
+    }
+
+h2 {
+    font-size: 1.1em;
+    padding:5px 15px;
+    margin-top:10px;
+}
+
+p {
+    padding-left:15px;
+}
+
+img.header-image {
+    width:100%;
+    height: auto;
+}
+.sidecol h2 {
+    margin:10px -20px 10px -20px; 
+    padding:5px 20px; 
+    background-color:#e5ba33; 
+}
+
+.item {background:#f2f2f2;  padding:0 20px 10px 20px; margin:0 0 20px 0;}
+
+
+.footer p {
+    color:#FFF; 
+    font-size:.8em;
+    text-align:center;
+    margin-top:5px;
+    }
+
+
+@media only screen and (max-width: 40em) {
+    .menu>li {
+        display:block;
+    }
+}
+
+/* Page Specific: */
+
+.recipies th {text-align: left; border-bottom:2px solid #ccc; cursor:pointer}
+.recipies th.tablesorter-headerUnSorted .tablesorter-header-inner::before {content: '\2195 '}
+.recipies th.tablesorter-headerAsc .tablesorter-header-inner::before {content: '\2191 '}
+.recipies th.tablesorter-headerDesc .tablesorter-header-inner::before {content: '\2193 '}
+.recipies tr td {border-bottom:1px solid #ebebeb; padding: 5px 10px;}
+
+/* Overwrite */
+a.button {background-color:#fff; color:#000; border:1px solid #000;}
+a.button:hover {background-color: #E5BA33; color:#000}
+
+/* Results */
+.GroupHeader {
+    font-size:1.5em;
+    text-align: center;
+}
