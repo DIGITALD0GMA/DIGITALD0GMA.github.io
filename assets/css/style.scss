@@ -1,4 +1,74 @@
- ---
- ---
+---
+---
 
-@import "{{ site.theme }}";
+@import "jekyll-theme-midnight";
+#terminal {
+    margin: 3px;
+    height: auto;
+    width: 100%;
+}
+
+#terminal .welcometext
+{
+	color: white
+}
+
+/*we use this for vertical scroll*/
+#prescroll {
+	height: 300px;
+	max-height: 300px; /* Change to your desired max height */
+	width: 100%;
+	overflow-y: scroll;
+}
+
+tr {
+    transition: height 1s;
+}
+
+td {
+	width: auto;
+	border: none;
+}
+
+.commandline {
+	display: table-cell;
+	padding: 0px !important;
+	margin: 0px !important;
+	width: 95%;
+	border: none;
+	background-color: #191919;
+	outline: none;
+	color: white;
+	font-family: monospace, serif;
+}
+
+#footer 
+{
+	margin: 0px auto;
+    padding-top: 60px;
+    width: 850px;
+}
+
+#footer .copyright 
+{
+	width: 100%;
+	text-align: center;
+	padding-top: 40px;
+}
+
+#footer .navbar
+{
+	width: 100%;
+	text-align: center;
+	list-style-image: url('/assets/images/bullet.png');
+}
+
+button {
+  background-color: #252525;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
+

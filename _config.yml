@@ -4,6 +4,7 @@ url: "https://www.brandonalafleur.com"
 #Site Settings
 title: Brandon LaFleur
 email: brandon.a.lafleur@gmail.com
-description: "Nic cage is a great actor who actually has a pretty wide range."
+description: Developer and IT Professional
 theme: jekyll-theme-midnight
 repository: DIGITALD0GMA/DIGITALD0GMA.github.io
+highlighter: rouge

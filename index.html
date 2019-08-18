@@ -2,19 +2,33 @@
 layout: default
 title: Brandon's Github Pages
 ---
-<head>
-
-</head>
-<body>
-	<div>
-		<h1>Hello World</h1>
-		<div>
-			<p>
-				Herp derpsum berps herpderpsmer herpler cerp jerpy terpus. Derps er terp herpem! Herp sherper derperker ler berp perp derpus mer. Er serp sherper perper ze ner merpus derp. Se derperker dee le derp der cerp pee sherp er. Sherpus herp herpler er terpus. Berps terp perper derpsum sherper derpy. Derpsum perp der terp le sherlamer ter. Sherper cerp derpler jerpy re terpus tee er. Der terp berps sherpus de merpus berp herpsum herpy mer? Derpsum ner herpderpsmer derpus sherpus. Sherpus le, merp sherper herpderpsmer herpsum. Jerpy cerp, berps herp nerpy le merp ze. Derperker der derpler herpderpsmer, jerpy cerp zerpus herderder. Merp herpler berps perper. Herpderpsmer cerp pee er derpler terp! Cerp terp berp herp. Terp dee merp jerpy derpy derpus herderder der terpus herpler. Sherper derpus herderder, herpy herpem herpderpsmer ner!
-			</p>
+<script src="assets/js/shell.js"></script>
+<script type="text/javascript">
+	//always keep .commandline in focus
+	$(document).ready(function() {
+		$('.commandline').focus();
+	});
+	$(document).keydown(function() {
+		$('.commandline').focus();
+	})
+</script>
+<div id="commandlineContainer">
+	<h2>Website Command Line <button onclick="toggleCommandlineVisibility()" id="hideButton">Hide</button></h2>
+	<div class="language-sh highlighter-rouge" id="shellwindow">
+		<div class="highlight">
+			<pre class="highlight" id="prescroll">
+				<table id="terminal">
+					<tr class="welcometext">
+						<td>Please enter a command.</td>
+					</tr>
+					<tr id="commandline">
+						<td>$<input type="text" class="commandline"/></td>
+					</tr>
+				</table>
+			</pre>
 		</div>
 	</div>
-</body>
-<footer>
+</div>
 
-</footer>
+<div id="cmdcontent">
+</div>
